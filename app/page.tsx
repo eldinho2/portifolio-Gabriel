@@ -15,14 +15,19 @@ export default function Home(){
             </div>
           ))}
         </div>
-        <div className="text-center absolute inset-0 flex items-center justify-center mb-24">
+        <div className="text-center absolute inset-0 flex items-center justify-center mb-3">
           <div>
             <FadeIn time={0.1} className="dark:text-white font-play text-7xl md:text-6xl sm:text-4xl">
               Portifólio
             </FadeIn>
-            <FadeIn time={0.2} className="font-play text-7xl md:text-6xl sm:text-4xl">de</FadeIn>
             <FadeIn time={0.3} className="font-play text-7xl md:text-6xl sm:text-4xl">
-              Matemática II
+              de
+            </FadeIn>
+            <FadeIn time={0.3} className="font-play text-7xl md:text-6xl sm:text-4xl">
+              Metodologia
+            </FadeIn>
+            <FadeIn time={0.3} className="font-play text-7xl md:text-6xl sm:text-4xl">
+            de esino da matemática
             </FadeIn>
           </div>
         </div>
@@ -32,14 +37,14 @@ export default function Home(){
           <div>
             <div className="flex gap-2">
               <p>Discente:</p>
-              <p>Julia de Aguiar Dantas Henrique</p>
+              <p>Gabriel de Aguiar Dantas Henrique</p>
             </div>
             <div>
               <p>Universidade Estadual do Rio de Janeiro / FFP</p>
             </div>
             <div className="flex gap-2">
               <p>Curso: </p>
-              <p>Pedagogia</p>
+              <p>Matemática</p>
             </div>
             <div className="flex gap-2">
               <p>Docente:</p>
@@ -50,15 +55,6 @@ export default function Home(){
             </div>
           </div>
         </FadeIn>
-        <FadeFromRigth className="select-none h-[250px] pointer-events-none">
-          <Image
-            src="/assets/gatinho1.png"
-            alt="gatinho"
-            width={300}
-            height={300}
-            className="select-none pointer-events-none md:w-[200px] md:h-[150px]"
-          />
-        </FadeFromRigth>
       </section>
     </main>
   );
